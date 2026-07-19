@@ -12,13 +12,16 @@ A command-line tool to track expenses using a local SQLite database, with catego
 - Prevents duplicate categories and invalid category references
 
 ## Project Structure
+
+```
 budget-tracker/
 ├── project.py          # CLI entry point
-├── database.py          # All SQLite operations
-├── db_setup.py            # Creates the categories and transactions tables
-├── test_database.py        # Unit tests
+├── database.py         # All SQLite operations
+├── db_setup.py         # Creates the categories and transactions tables
+├── test_database.py    # Unit tests
 ├── requirements.txt
 └── README.md
+```
 
 ## Setup
 
